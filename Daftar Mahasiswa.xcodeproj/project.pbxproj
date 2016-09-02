@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5EC76B91D7A33D1009EBB68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EC76B81D7A33D1009EBB68 /* AppDelegate.swift */; };
+		B5EC76BB1D7A33D1009EBB68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EC76BA1D7A33D1009EBB68 /* ViewController.swift */; };
+		B5EC76BE1D7A33D2009EBB68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5EC76BC1D7A33D2009EBB68 /* Main.storyboard */; };
+		B5EC76C01D7A33D2009EBB68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EC76BF1D7A33D2009EBB68 /* Assets.xcassets */; };
+		B5EC76C31D7A33D2009EBB68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5EC76C11D7A33D2009EBB68 /* LaunchScreen.storyboard */; };
+		B5EC76CE1D7A33D2009EBB68 /* Daftar_MahasiswaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EC76CD1D7A33D2009EBB68 /* Daftar_MahasiswaTests.swift */; };
+		B5EC76D91D7A33D2009EBB68 /* Daftar_MahasiswaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EC76D81D7A33D2009EBB68 /* Daftar_MahasiswaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5EC76CA1D7A33D2009EBB68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5EC76AD1D7A33D1009EBB68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5EC76B41D7A33D1009EBB68;
+			remoteInfo = "Daftar Mahasiswa";
+		};
+		B5EC76D51D7A33D2009EBB68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5EC76AD1D7A33D1009EBB68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5EC76B41D7A33D1009EBB68;
+			remoteInfo = "Daftar Mahasiswa";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5EC76B51D7A33D1009EBB68 /* Daftar Mahasiswa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daftar Mahasiswa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EC76B81D7A33D1009EBB68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5EC76BA1D7A33D1009EBB68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5EC76BD1D7A33D2009EBB68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5EC76BF1D7A33D2009EBB68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5EC76C21D7A33D2009EBB68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5EC76C41D7A33D2009EBB68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5EC76C91D7A33D2009EBB68 /* Daftar MahasiswaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daftar MahasiswaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EC76CD1D7A33D2009EBB68 /* Daftar_MahasiswaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daftar_MahasiswaTests.swift; sourceTree = "<group>"; };
+		B5EC76CF1D7A33D2009EBB68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5EC76D41D7A33D2009EBB68 /* Daftar MahasiswaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daftar MahasiswaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EC76D81D7A33D2009EBB68 /* Daftar_MahasiswaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daftar_MahasiswaUITests.swift; sourceTree = "<group>"; };
+		B5EC76DA1D7A33D2009EBB68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5EC76B21D7A33D1009EBB68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EC76C61D7A33D2009EBB68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EC76D11D7A33D2009EBB68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5EC76AC1D7A33D1009EBB68 = {
+			isa = PBXGroup;
+			children = (
+				B5EC76B71D7A33D1009EBB68 /* Daftar Mahasiswa */,
+				B5EC76CC1D7A33D2009EBB68 /* Daftar MahasiswaTests */,
+				B5EC76D71D7A33D2009EBB68 /* Daftar MahasiswaUITests */,
+				B5EC76B61D7A33D1009EBB68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5EC76B61D7A33D1009EBB68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC76B51D7A33D1009EBB68 /* Daftar Mahasiswa.app */,
+				B5EC76C91D7A33D2009EBB68 /* Daftar MahasiswaTests.xctest */,
+				B5EC76D41D7A33D2009EBB68 /* Daftar MahasiswaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5EC76B71D7A33D1009EBB68 /* Daftar Mahasiswa */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC76B81D7A33D1009EBB68 /* AppDelegate.swift */,
+				B5EC76BA1D7A33D1009EBB68 /* ViewController.swift */,
+				B5EC76BC1D7A33D2009EBB68 /* Main.storyboard */,
+				B5EC76BF1D7A33D2009EBB68 /* Assets.xcassets */,
+				B5EC76C11D7A33D2009EBB68 /* LaunchScreen.storyboard */,
+				B5EC76C41D7A33D2009EBB68 /* Info.plist */,
+			);
+			path = "Daftar Mahasiswa";
+			sourceTree = "<group>";
+		};
+		B5EC76CC1D7A33D2009EBB68 /* Daftar MahasiswaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC76CD1D7A33D2009EBB68 /* Daftar_MahasiswaTests.swift */,
+				B5EC76CF1D7A33D2009EBB68 /* Info.plist */,
+			);
+			path = "Daftar MahasiswaTests";
+			sourceTree = "<group>";
+		};
+		B5EC76D71D7A33D2009EBB68 /* Daftar MahasiswaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC76D81D7A33D2009EBB68 /* Daftar_MahasiswaUITests.swift */,
+				B5EC76DA1D7A33D2009EBB68 /* Info.plist */,
+			);
+			path = "Daftar MahasiswaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5EC76B41D7A33D1009EBB68 /* Daftar Mahasiswa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5EC76DD1D7A33D2009EBB68 /* Build configuration list for PBXNativeTarget "Daftar Mahasiswa" */;
+			buildPhases = (
+				B5EC76B11D7A33D1009EBB68 /* Sources */,
+				B5EC76B21D7A33D1009EBB68 /* Frameworks */,
+				B5EC76B31D7A33D1009EBB68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Daftar Mahasiswa";
+			productName = "Daftar Mahasiswa";
+			productReference = B5EC76B51D7A33D1009EBB68 /* Daftar Mahasiswa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5EC76C81D7A33D2009EBB68 /* Daftar MahasiswaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5EC76E01D7A33D2009EBB68 /* Build configuration list for PBXNativeTarget "Daftar MahasiswaTests" */;
+			buildPhases = (
+				B5EC76C51D7A33D2009EBB68 /* Sources */,
+				B5EC76C61D7A33D2009EBB68 /* Frameworks */,
+				B5EC76C71D7A33D2009EBB68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5EC76CB1D7A33D2009EBB68 /* PBXTargetDependency */,
+			);
+			name = "Daftar MahasiswaTests";
+			productName = "Daftar MahasiswaTests";
+			productReference = B5EC76C91D7A33D2009EBB68 /* Daftar MahasiswaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5EC76D31D7A33D2009EBB68 /* Daftar MahasiswaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5EC76E31D7A33D2009EBB68 /* Build configuration list for PBXNativeTarget "Daftar MahasiswaUITests" */;
+			buildPhases = (
+				B5EC76D01D7A33D2009EBB68 /* Sources */,
+				B5EC76D11D7A33D2009EBB68 /* Frameworks */,
+				B5EC76D21D7A33D2009EBB68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5EC76D61D7A33D2009EBB68 /* PBXTargetDependency */,
+			);
+			name = "Daftar MahasiswaUITests";
+			productName = "Daftar MahasiswaUITests";
+			productReference = B5EC76D41D7A33D2009EBB68 /* Daftar MahasiswaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5EC76AD1D7A33D1009EBB68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Merame Studio";
+				TargetAttributes = {
+					B5EC76B41D7A33D1009EBB68 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B5EC76C81D7A33D2009EBB68 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B5EC76B41D7A33D1009EBB68;
+					};
+					B5EC76D31D7A33D2009EBB68 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B5EC76B41D7A33D1009EBB68;
+					};
+				};
+			};
+			buildConfigurationList = B5EC76B01D7A33D1009EBB68 /* Build configuration list for PBXProject "Daftar Mahasiswa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5EC76AC1D7A33D1009EBB68;
+			productRefGroup = B5EC76B61D7A33D1009EBB68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5EC76B41D7A33D1009EBB68 /* Daftar Mahasiswa */,
+				B5EC76C81D7A33D2009EBB68 /* Daftar MahasiswaTests */,
+				B5EC76D31D7A33D2009EBB68 /* Daftar MahasiswaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5EC76B31D7A33D1009EBB68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EC76C31D7A33D2009EBB68 /* LaunchScreen.storyboard in Resources */,
+				B5EC76C01D7A33D2009EBB68 /* Assets.xcassets in Resources */,
+				B5EC76BE1D7A33D2009EBB68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EC76C71D7A33D2009EBB68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EC76D21D7A33D2009EBB68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5EC76B11D7A33D1009EBB68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EC76BB1D7A33D1009EBB68 /* ViewController.swift in Sources */,
+				B5EC76B91D7A33D1009EBB68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EC76C51D7A33D2009EBB68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EC76CE1D7A33D2009EBB68 /* Daftar_MahasiswaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EC76D01D7A33D2009EBB68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EC76D91D7A33D2009EBB68 /* Daftar_MahasiswaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5EC76CB1D7A33D2009EBB68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5EC76B41D7A33D1009EBB68 /* Daftar Mahasiswa */;
+			targetProxy = B5EC76CA1D7A33D2009EBB68 /* PBXContainerItemProxy */;
+		};
+		B5EC76D61D7A33D2009EBB68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5EC76B41D7A33D1009EBB68 /* Daftar Mahasiswa */;
+			targetProxy = B5EC76D51D7A33D2009EBB68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5EC76BC1D7A33D2009EBB68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5EC76BD1D7A33D2009EBB68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5EC76C11D7A33D2009EBB68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5EC76C21D7A33D2009EBB68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5EC76DB1D7A33D2009EBB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5EC76DC1D7A33D2009EBB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5EC76DE1D7A33D2009EBB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Daftar Mahasiswa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.merame.Daftar-Mahasiswa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5EC76DF1D7A33D2009EBB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Daftar Mahasiswa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.merame.Daftar-Mahasiswa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B5EC76E11D7A33D2009EBB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Daftar MahasiswaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.merame.Daftar-MahasiswaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daftar Mahasiswa.app/Daftar Mahasiswa";
+			};
+			name = Debug;
+		};
+		B5EC76E21D7A33D2009EBB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Daftar MahasiswaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.merame.Daftar-MahasiswaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daftar Mahasiswa.app/Daftar Mahasiswa";
+			};
+			name = Release;
+		};
+		B5EC76E41D7A33D2009EBB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Daftar MahasiswaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.merame.Daftar-MahasiswaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Daftar Mahasiswa";
+			};
+			name = Debug;
+		};
+		B5EC76E51D7A33D2009EBB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Daftar MahasiswaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.merame.Daftar-MahasiswaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Daftar Mahasiswa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5EC76B01D7A33D1009EBB68 /* Build configuration list for PBXProject "Daftar Mahasiswa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EC76DB1D7A33D2009EBB68 /* Debug */,
+				B5EC76DC1D7A33D2009EBB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5EC76DD1D7A33D2009EBB68 /* Build configuration list for PBXNativeTarget "Daftar Mahasiswa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EC76DE1D7A33D2009EBB68 /* Debug */,
+				B5EC76DF1D7A33D2009EBB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5EC76E01D7A33D2009EBB68 /* Build configuration list for PBXNativeTarget "Daftar MahasiswaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EC76E11D7A33D2009EBB68 /* Debug */,
+				B5EC76E21D7A33D2009EBB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5EC76E31D7A33D2009EBB68 /* Build configuration list for PBXNativeTarget "Daftar MahasiswaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EC76E41D7A33D2009EBB68 /* Debug */,
+				B5EC76E51D7A33D2009EBB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5EC76AD1D7A33D1009EBB68 /* Project object */;
+}
